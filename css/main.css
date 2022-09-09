@@ -8,8 +8,12 @@
 }
 
 /* HTML5 DECLARATIONS */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, dialog {
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, dialog {
     display: block
+}
+
+section{
+    display: inline-block;
 }
 
 audio[controls], canvas, video {
