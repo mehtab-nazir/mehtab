@@ -116,7 +116,8 @@ p, ul, blockquote, pre, td, th, label {
     margin: 0;
     font-size: 1em;
     line-height: 1.5em;
-    margin-bottom: 1.5em
+    margin-bottom: 1.5em;
+    text-align: justify;
 }
 
 /* 16px / 24px */
@@ -562,11 +563,20 @@ body {
 
 /* Photo */
 .photo {
-    float: left;
+    /*float: left;*/
     height: 250px;
     width: 200px;
-    margin-right: 20px;
-    overflow: hidden;
+    /*margin-right: 20px;*/
+    /*overflow: hidden;*/
+}
+.j-div{
+    display: flex;
+    align-items:center;
+
+}
+
+.info div{
+    margin-left: 12.5%;
 }
 
 .photo img {
